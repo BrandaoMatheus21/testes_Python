@@ -37,18 +37,18 @@ if meiodepag == "a prazo" :
     if parcelas == 10 :
         print (valor / 10)
     if parcelas == 11 :
-        print (valor + (valor * 0.05))
+        print (valor + valor * (0.05 * 11))
     if parcelas == 12:
-        print (valor + (valor * 0.065))
-    if parcelas == 13 :
-        print (valor + (valor * 0.07))
+        print (valor + valor * (0.065 * 12))
+    if parcelas == 13 : 
+        print (valor + valor * (0.07 * 13))
     if parcelas == 14 :
-        print (valor + (valor * 0.09))
+        print (valor + valor * (0.09 * 14))
     if parcelas == 15 :
-        print (valor + (valor * 0.095))
+        print (valor + valor * (0.095 * 15))
     if parcelas == 16 :
-        print (valor + (valor * 0.1))
+        print (valor + valor * (0.1 * 16))
     if parcelas == 17 : 
-        print (valor + (valor * 0.113))
+        print (valor + valor * (0.113 * 17))
     if parcelas == 18 :
-        print (valor + (valor * 0.12))
+        print (valor + valor * (0.12 * 18))
