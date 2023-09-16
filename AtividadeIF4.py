@@ -1,8 +1,9 @@
-salario = float(input("Insira seu salario"))
-tempo = float(input("Insira o seu tempo de serviço"))
+salario = float(input("Insira seu salario:"))
+tempo_servico = float(input("Insira o seu tempo de serviço:"))
 
-if tempo >= 5 :
-    print("Você possui um bônus de 5% adicional")
-
-if tempo <= 5 :
-    print ("Você não possui bõnus adicional")
+total = 0
+if tempo_servico >= 5 :
+    total = salario * 1.05
+    print(total)
+else:
+    total = salario
