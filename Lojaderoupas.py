@@ -15,7 +15,7 @@ if meiodepag == "a vista":
         print (valor - (valor * 0.1))
 
 if meiodepag == "a prazo" :
-    parcelas = int(input("Digite a quantidade de parcelas, lembrando que acima de 10 possui juros:(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18) "))
+    parcelas = int(input("Digite a quantidade de parcelas. Acima de 10 possui juros:(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18) "))
     if parcelas == 1 :
         print (valor)
     if parcelas == 2 :
